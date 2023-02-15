@@ -2,7 +2,6 @@ package com.example.test12
 import com.google.gson.annotations.SerializedName
 
 //定义消息的实体类
-const val MY_API_KEY ="sk"
 data class Msg(val content: String, val type: Int) {
     //定义静态成员
     companion object {
